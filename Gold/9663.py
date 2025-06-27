@@ -1,25 +1,18 @@
-def n_queens(i, col):
+def n_queens(row):
     global cnt
-    n = len(col) -1
-    if (dfs(i, col)):
-        if (i == n):
-            cnt += 1
-        else:
-            for j in range(1, n+1):
-                col[i+1] = j
-                n_queens(i+1, col)
+    if row == n:
+        cnt += 1
+        return
+    for col in range(n):
+        if not visited_col[col] and not visited_diag1[row - col] and not visited_diag2[row + col]:
+            visited_col[col] = visited_diag1[row - col] = visited_diag2[row + col] = True
+            n_queens(row + 1)
+            visited_col[col] = visited_diag1[row - col] = visited_diag2[row + col] = False
 
-def dfs(i, col):
-    k = 1
-    flag = True
-    while (k < i and flag):
-        if (col[i] == col[k] or abs(col[i] - col[k]) == (i - k)):
-            flag = False
-        k += 1
-    return flag
-
-cnt = 0
 n = int(input())
-col = [0] * (n + 1)
-n_queens(0, col)
+cnt = 0
+visited_col = [False] * n
+visited_diag1 = [False] * (2 * n)  
+visited_diag2 = [False] * (2 * n) 
+n_queens(0)
 print(cnt)
