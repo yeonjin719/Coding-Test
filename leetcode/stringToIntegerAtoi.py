@@ -14,7 +14,7 @@ class Solution:
                     continue
             if (editS[i].isnumeric() == False):
                 if (answer == ''):
-                  return 0
+                    return 0
                 else: 
                   return int(answer) * (-1)**signed 
             answer += editS[i] 

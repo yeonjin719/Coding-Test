@@ -3,7 +3,6 @@ class Solution:
         if (len(s) != len(t)):
             return False
         TDict = {}
-        SDict = {}
         for i in t:
             if (i in TDict):
                 TDict[i] += 1
@@ -16,7 +15,7 @@ class Solution:
             if (s.count(i) != TDict[i]):
                 return False
         return True
-      
+
 solution = Solution()
 s = "anagram"
 t = "nagaram"
