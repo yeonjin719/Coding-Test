@@ -38,6 +38,7 @@
 | [0006-zigzag-conversion](https://github.com/yeonjin719/Coding-Test/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/yeonjin719/Coding-Test/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/yeonjin719/Coding-Test/tree/master/0012-integer-to-roman) |
+| [0020-valid-parentheses](https://github.com/yeonjin719/Coding-Test/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -63,4 +64,8 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/yeonjin719/Coding-Test/tree/master/0011-container-with-most-water) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/yeonjin719/Coding-Test/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
