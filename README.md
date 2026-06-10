@@ -15,6 +15,7 @@
 | [0001-two-sum](https://github.com/yeonjin719/Coding-Test/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yeonjin719/Coding-Test/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/yeonjin719/Coding-Test/tree/master/0012-integer-to-roman) |
+| [0242-valid-anagram](https://github.com/yeonjin719/Coding-Test/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
@@ -39,6 +40,7 @@
 | [0008-string-to-integer-atoi](https://github.com/yeonjin719/Coding-Test/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/yeonjin719/Coding-Test/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/yeonjin719/Coding-Test/tree/master/0020-valid-parentheses) |
+| [0242-valid-anagram](https://github.com/yeonjin719/Coding-Test/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
@@ -68,4 +70,8 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yeonjin719/Coding-Test/tree/master/0020-valid-parentheses) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/yeonjin719/Coding-Test/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
